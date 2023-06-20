@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Scratch Website</title>
+        <style>
+            .header{
+                background-image: url("tech-accesessries.webp");
+                background-size: cover;
+            }
+            .nav-link{
+                color: white!important;
+            }
+            .fst-italic {
+                font-family: kaushan Script;
+            }
+            .feature-icon {
+             width: 6rem;
+             height: 6rem;
+             border-radius: 50%;
+             background-color: gold!important;
+            }
+            .images {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 60px 40px;
+            }
+            .images > div {
+                width: 400px;
+                border: 10px solid gold;
+                font-size: 30px;
+                text-align: center;
+                background-color: goldenrod;
+            }
+            .contact {
+                background-image: url("./dotted-background.jpg");
+                background-size: cover;
+                color: gainsboro;
+                margin-top: 100px;
+            }
+            .contact > h3 {
+            margin-top: 5rem!important;
+            padding-top: 5rem;
+            }
+            .form-box {
+                margin: 5rem;
+            }
+
+        </style>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!--Title-->
+        <section id="Title" class="header" >
+            <div class="container">
+                <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+                  <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                    <span class="fst-italic fw-bold">Simple header</span>
+                  </a>
+            
+                  <ul class="nav nav-pills">
+                    <li class="nav-item" style="color:black;"><a href="#" class="nav-link">SERVICES</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">PORTFOLIO</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">ABOUT</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">TEAM</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">CONTACT</a></li>
+                  </ul>
+                </header>
+              </div>
+            <div class="px-4 pb-5 pt- my-5 text-center">
+                <i class="display-6 fw-medium text-body-secondary">Welcome To Our Studio!</i>
+                <h1 class="display-5 fw-bold text-body-emphasis">IT'S NICE TO MEET YOU</h1>
+                <div class="col-lg-6 mx-auto">
+                  <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <button type="button" class="btn btn-dark">TELL ME MORE</button>
+                  </div>
+                </div>
+              </div>
+          </section>
+
+          <!--Services-->
+          <section id="services">
+            <div class="container px-4 py-5" id="featured-3">
+                <h2 class="pb-2 text-center border-bottom">SERVICES</h2>
+                <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                  <div class="feature col text-center">
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center  bg-gradient fs-2 mb-3">
+                     <img src="./cart-dash-fill.svg" alt="cart-dash" height="60">
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">E-Commerce</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at sapien porttitor urna elementum lacinia. In
+                        id magna pulvinar, ultricies lorem id, vehicula elit. Aliquam eu luctus nisl, vitae pellentesque magna. Phasellus
+                        dolor metus, laoreet ac convallis sit amet, efficitur sed dolor.</p>
+                  </div>
+                  <div class="feature col text-center">
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center  bg-gradient fs-2 mb-3">
+                      <img src="./front.svg" alt="front" height="60">
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Responsive Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at sapien porttitor urna elementum lacinia. In
+                        id magna pulvinar, ultricies lorem id, vehicula elit. Aliquam eu luctus nisl, vitae pellentesque magna. Phasellus
+                        dolor metus, laoreet ac convallis sit amet, efficitur sed dolor.</p>
+                  </div>
+                  <div class="feature col text-center">
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center  bg-gradient fs-2 mb-3">
+                      <img src="./file-lock2-fill.svg" alt="lock" height="60">
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Web security</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at sapien porttitor urna elementum lacinia. In
+                        id magna pulvinar, ultricies lorem id, vehicula elit. Aliquam eu luctus nisl, vitae pellentesque magna. Phasellus
+                        dolor metus, laoreet ac convallis sit amet, efficitur sed dolor.</p>
+                  </div>
+                </div>
+              </div>
+          </section>
+
+          <!--Potfolio-->
+          <section id="portfolio" class="container portfolio" >
+            <div class="images">
+                <div class="cat">
+                    <img src="./Black cat.jpg" alt="cat" width="350" height="300">
+                    <span class="fst-italic text-center"><u>CAT</u></span>
+                </div>
+                <div class="shoes text-center">
+                    <img src="./shoes.jpg" alt="shoes"width="350" height="300">
+                    <span class="fst-italic text-center"><u>SHOES</u></span>
+                </div>
+                <div class="box">
+                    <img src="./box.jpg" alt="box" width="350" height="300">
+                    <span class="fst-italic text-center"><u>BOX</u></span>
+                </div>
+                <div class="bird">
+                    <img src="./bird.jpg" alt="bird" width="350" height="300">
+                    <span class="fst-italic text-center"><u>BIRD</u></span>
+                </div>
+                <div class="tree">
+                    <img src="./tree.jpg" alt="tree" width="350" height="300">
+                    <span class="fst-italic text-center"><u>TREE</u></span>
+                </div>
+                <div class="compass ">
+                    <img src="./compass.jpg" alt="compass" width="350" height="300">
+                    <span class="fst-italic text-center"><u>COMPASS</u></span>
+                </div>
+            </div>
+          </section>
+
+          <!--Contact us-->
+          <section id="contact-us">
+            <div class="container contact">
+                <h3 class="fw-bold text-center ">CONTACT US</h3>
+               <div class="row">
+                <div class="container form-box">
+                <div class="col-6">
+                <input type="name"  class="form-control" placeholder="your name"><br>
+                <input type="email" placeholder="your email"><br>
+                <input type="tel" placeholder="your phone No.">
+                </div>
+                <div class="col-6">
+                    <textarea type="textarea" row="10" col="5" placeholder="your message"></textarea>
+                </div>
+               </div>
+               </div> 
+            </div>
+          </section>
+    </body>
+</html>
